@@ -27,3 +27,7 @@ header {
   align-items: center;
   padding: 1.2rem 2rem;
 }
+.first-h1 {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
