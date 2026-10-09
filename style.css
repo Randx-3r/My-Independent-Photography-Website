@@ -43,13 +43,23 @@ nav a {
   transition: color 0.3s ease;
 }
 nav a:hover {
-  color: #ffffff;
+  color: #e64d4d;
 }
 /* Hero / Intro Section */
 .hero {
-  background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)),
-              url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
-  color: #ffffff;
+  background: 
+              url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1600&q=80') center/cover ;
+  color: #772626;
   text-align: center;
   padding: 6rem 2rem;
+}}
+/* Container & Section Styling */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.section {
+  margin-bottom: 4rem;
 }
