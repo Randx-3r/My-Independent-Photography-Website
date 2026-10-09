@@ -4,3 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary-color: #1a1a1a;
+  --accent-color: #2563eb;
+  --accent-hover: #1d4ed8;
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --text-color: #334155;
+  --heading-color: #0f172a;
+  --border-radius: 8px;
+}
