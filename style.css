@@ -148,3 +148,46 @@ section > div:has(.gallery-item3),
   object-fit: cover;  /* Ensures the image fills the space neatly without distorting */
   display: block;
 }
+
+/* Dropdown Styling */
+.gallery-details {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-top: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.gallery-details summary {
+  font-weight: 600;
+  color: #2563eb;
+  cursor: pointer;
+  outline: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.gallery-details summary:hover {
+  color: #1d4ed8;
+}
+
+.gallery-details p {
+  font-size: 0.9rem;
+  color: #475569;
+  margin: 0.8rem 0;
+  line-height: 1.5;
+}
+
+/* Sub-gallery images inside dropdowns */
+.sub-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.sub-gallery img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
