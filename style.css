@@ -93,14 +93,6 @@ nav a:hover {
   background-color: #000;
 }
 
-/* Group 2: Gallery Item 2 & Gallery Item 3 */
-section > div:has(.gallery-item2),
-section > div:has(.gallery-item3),
-.gallery-item2, 
-.gallery-item3 {
-  /* Handled via flex container below */
-}
-
 /* Let's wrap each section pair cleanly using flex */
 #gallery section {
   display: flex;
@@ -190,4 +182,12 @@ section > div:has(.gallery-item3),
   height: 100px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.hero1 {
+  background: 
+              url("https://imgs.search.brave.com/6fEvDL8KmDNnJ7bNZUU6cJr6p8Zo65fVkbR2rgF7sZ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvODg2/NzQyNi9wZXhlbHMt/cGhvdG8tODg2NzQy/Ni5qcGVnP2NzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw") center/cover ;
+  color: #149fe0;
+  text-align: center;
+  padding: 6rem 2rem;
 }
