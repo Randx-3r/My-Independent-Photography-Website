@@ -45,7 +45,7 @@ nav a {
 nav a:hover {
   color: #e64d4d;
 }
-/* Hero / Intro Section */
+/* Hero / Intro Section-The background picture thingy */
 .hero {
   background: 
               url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1600&q=80') center/cover ;
@@ -93,7 +93,7 @@ nav a:hover {
   background-color: #000;
 }
 
-/* Let's wrap each section pair cleanly using flex */
+/* I used flex to wrap all the images and bring them together...I think it looks good */
 #gallery section {
   display: flex;
   flex-wrap: wrap;
@@ -136,8 +136,8 @@ nav a:hover {
 
 .gallery-row img {
   width: 100%;
-  height: 240px;      /* Locks every image to the exact same height */
-  object-fit: cover;  /* Ensures the image fills the space neatly without distorting */
+  height: 240px;      /* Locks every image to the exact same height ndio zikae equal in size */
+  object-fit: cover;  /* Ensures the image fills the space neatly without distorting hence giving equal size*/
   display: block;
 }
 
@@ -184,10 +184,87 @@ nav a:hover {
   border-radius: 4px;
 }
 
+/* Contact Section Background Card */
+.contact-form {
+  background: rgba(137, 202, 212, 0.9);
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  text-align: left;
+}
+
+/* Form Group Layout */
+.form-group {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+  font-size: 0.95rem;
+}
+
+/* Text Inputs & Textareas */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #0f4f98;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #c2c2c1;
+  color: #0f172a;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Attractive Focus State */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Submit Button Styling... */
+.submit-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 0.85rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+/*hero 1 background image...finallyyy*/
 .hero1 {
-  background: 
-              url("https://imgs.search.brave.com/6fEvDL8KmDNnJ7bNZUU6cJr6p8Zo65fVkbR2rgF7sZ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvODg2/NzQyNi9wZXhlbHMt/cGhvdG8tODg2NzQy/Ni5qcGVnP2NzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw") center/cover ;
-  color: #149fe0;
+   background: 
+              url('https://imgs.search.brave.com/6fEvDL8KmDNnJ7bNZUU6cJr6p8Zo65fVkbR2rgF7sZ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvODg2/NzQyNi9wZXhlbHMt/cGhvdG8tODg2NzQy/Ni5qcGVnP2NzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw') center/cover ;
+  color: #772626;
   text-align: center;
   padding: 6rem 2rem;
 }
+
+
