@@ -72,3 +72,16 @@ nav a:hover {
   text-align: center;
   position: relative;
 }
+ .gallery-mother {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  flex: 1 1 calc(50% - 1.5rem);
+  box-sizing: border-box;
+}
