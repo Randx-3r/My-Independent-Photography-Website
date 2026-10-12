@@ -72,7 +72,16 @@ nav a:hover {
   text-align: center;
   position: relative;
 }
- 
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes it a clean circle so it doesnt occupy half the paragraph */
+  float: left;
+  margin: 0 20px 15px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+} 
 /* Group 1: Gallery Mother & Gallery Item 1 */
 .gallery-mother, 
 .gallery-item1 {
